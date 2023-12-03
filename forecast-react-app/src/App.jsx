@@ -7,15 +7,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Vortex
-        visible={true}
-        height="80"
-        width="80"
-        ariaLabel="vortex-loading"
-        wrapperStyle={{}}
-        wrapperClass="vortex-wrapper"
-        colors={["blue", "blueviolet", "white", "orange"]}
-      />
       <h1>Weather App In React</h1>
       <br />
       <div className="App">
@@ -79,6 +70,24 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <br />
+      <div>
+        <a
+          href="https://github.com/SamanthaMk/forecast-react-app"
+          className="code"
+        >
+          Open Source Code created by Siphosethu Samantha Mkandwna
+          <Vortex
+            visible={true}
+            height="40"
+            width="40"
+            ariaLabel="vortex-loading"
+            wrapperStyle={{}}
+            wrapperClass="vortex-wrapper"
+            colors={["blue", "blueviolet", "white", "orange"]}
+          />
+        </a>
       </div>
     </>
   );
